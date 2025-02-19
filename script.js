@@ -34,10 +34,9 @@ for (let x of inputs){
     })
 }
 
-/*
 setTimeout(() => {
     alert("Sorry!")
     alert("I was supposed to make the form submit but I'm too lazy to code that right now")
     alert("I could have came up with a much more efficient coding solution. But honestly, this project was way too easy and I don\'t have the energy to write more efficient code. I also didn't finish the project. Sorry.")
     alert("Enjoy the design, and feel free to add some regular expressions to the javascript checker if you want. enjoy :)")
-},5000)*/
+},5000)
