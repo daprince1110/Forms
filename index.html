@@ -8,7 +8,13 @@
 </head>
 <body>
     <div id = "main">
-        <div id="left"></div>
+        <div id="left">
+            <div>
+                <img src = "odin-lined.png">
+                <h2>ODIN</h2>
+            </div>
+            <p>Photo from <a href="https://unsplash.com/@haliewestphoto">Halie West</a> at <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">unsplash.com</a></p>
+        </div>
 
         <div id="right">
             <div id = "top">
@@ -21,12 +27,12 @@
                 <fieldset>
                     <div>
                         <label for="first_name"><p>First Name</p></label>
-                        <input id="first_name" type="text">
+                        <input required id="first_name" type="text">
                     </div>
     
                     <div>
                         <label for="last_name"><p>Last Name</p></label>
-                        <input id="last_name" type="text">
+                        <input required id="last_name" type="text">
                     </div>
 
                 </fieldset>
@@ -34,13 +40,13 @@
                 <fieldset>
                     <div>
                         <label for="email"><p>Email</p></label>
-                        <input id="email" type="email">
+                        <input required id="email" type="email">
                     </div>
 
 
                     <div>
                         <label for="phone"><p>Telephone</p></label>
-                        <input id="phone" type="tel">
+                        <input required id="phone" type="tel">
                     </div>
     
                 </fieldset>
@@ -48,24 +54,22 @@
                 <fieldset>
                     <div>
                         <label for="password"><p>Password</p></label>
-                        <input id="password" type="password">
+                        <input required id="password" type="password">
                     </div>
 
                     <div>
                         <label for="confirm_pass"><p>Confirm Password</p></label>
-                        <input id="confirm_pass" disabled type="password">
+                        <input required id="confirm_pass" disabled type="password">
                     </div>
 
                 </fieldset>
-
-
             </form>
             <div id="bottom">
                 <button>Create Account</button>
                 <p>Already have an account? <b>Log In</b></p>
             </div>
-
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
